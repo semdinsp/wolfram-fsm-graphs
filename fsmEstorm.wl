@@ -18,10 +18,15 @@ traverseGraph::usage="travers the graph return g,node,state ";
 currentVertexAction::usage="given a vertex rund the action associated with it ";
 defaultPriorityFunction::usage="default function returns priority of node";
 defaultActionFunction::usage="default function returns state";
+applyDefaultGraphSettings::usage="graph, priority, apply defaults settings to graph, return newgraph";
 Begin["`Private`"]
 discoverFun[u_,v_,d_]:=Module[{}, (* Print["Discovered:", u," from ",v, " depth ", d ]; *)
  If[d==1,Sow[u]] ];
-
+applyDefaultGraphSettings[g_Graph,priority_]:=Module[{ng},ng=g;
+ng=setDefaultPriority[ng,priority];
+ng=setDefaultPriorityFunction[ng,defaultPriorityFunction];
+ng=setDefaultActionFunction[ng,defaultActionFunction];
+ng];
 findNextVertices[g_Graph,start_]:=Module[{nodes={}},nodes=Reap[BreadthFirstScan[g,start,{"DiscoverVertex"-> discoverFun }]];
 Flatten[nodes[[2]]]];
 
@@ -81,6 +86,12 @@ Print["Final node: ",node, " final state: ",nstate];
 End[]
 
 EndPackage[]
+
+
+
+
+
+
 
 
 
