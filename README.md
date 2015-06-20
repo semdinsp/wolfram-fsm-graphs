@@ -21,3 +21,9 @@ Typical usage
    {ng, node, nstate}];
    PropertyValue[{ng, "pause"}, "actionFunction"] = pauseActionFunction;
    traverseGraph[ng, "open position", <||>, "close position"] 
+
+Plotting Graphs
+================
+Use the plots to help debug problems.  Edges have tool tips priority function and priority.  The second plot variant will show vertex actionFunctions.
+    fsmGraphPlot[graph, ng]
+    fsmGraphPlotAction[graph,ng]

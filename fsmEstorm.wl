@@ -19,6 +19,8 @@ currentVertexAction::usage="given a vertex rund the action associated with it ";
 defaultPriorityFunction::usage="default function returns priority of node";
 defaultActionFunction::usage="default function returns state";
 applyDefaultGraphSettings::usage="graph, priority, apply defaults settings to graph, return newgraph";
+fsmGraphPlot::usage="plot fsm graph and show priority function on edges";
+fsmGraphPlotAction::usage="plot fsm graph and show priority function on edges plus action functions";
 Begin["`Private`"]
 discoverFun[u_,v_,d_]:=Module[{}, (* Print["Discovered:", u," from ",v, " depth ", d ]; *)
  If[d==1,Sow[u]] ];
@@ -35,6 +37,18 @@ sorted=Sort[nodes];Print[sorted];
 highKey=Flatten[Position[sorted,Last[Sort[sorted]]]];
 highKey[[1,1]]
  ];
+
+fsmGraphPlot[nodes_List,g_Graph]:=Module[{newlist},
+
+newlist={#,{PropertyValue[{g,#[[2]]},"priority"],PropertyValue[{g,#[[2]]},"priorityFunction"]}} & /@ nodes;
+  GraphPlot[newlist,EdgeLabeling-> Automatic,VertexLabeling -> True, DirectedEdges-> True]  ];
+
+fsmGraphPlotAction[nodes_List,g_Graph]:=Module[{newlist}, (* plot actionFunctions *)
+
+newlist={StringJoin[#[[1]],PropertyValue[{g,#[[1]]},"actionFunction"]] -> StringJoin[#[[2]],PropertyValue[{g,#[[2]]},"actionFunction"]],{PropertyValue[{g,#[[2]]},"priority"],PropertyValue[{g,#[[2]]},"priorityFunction"]}} & /@ nodes;
+  GraphPlot[newlist,EdgeLabeling-> Automatic,VertexLabeling -> True, DirectedEdges-> True]  ];
+
+
 getNextVertex[g_Graph,start_,state_Association]:=Module[{nodes,prioritized},(* look at priority to figure out what is next *)
 nodes=findNextVertices[g,start];
 prioritized={# ->PropertyValue[{g,#},"priorityFunction" ][g,#,state]}  &/@ nodes;
@@ -61,31 +75,51 @@ newgraph
 ];
 defaultPriorityFunction[g_Graph,node_,state_Association]:=Module[{}, (* just return default priorty *)
 PropertyValue[{g,node},"priority" ]];
-defaultActionFunction[g_Graph,node_,state_Association]:=Module[{nstate}, (* just return default state *)
+defaultActionFunction[g_Graph,node_,state_Association]:=Module[{nstate,nnode}, (* just return default state *)
 nstate=state;
 nstate["currentNode"]=node;
-{g,node,nstate}];
+nnode=node;
+{g,nnode,nstate}];
 
 currentVertexAction[g_Graph,node_,state_Association]:=Module[{newgraph,newnode,newState,vfun,nstate},(* action for a specific vertex based on state *)
 newgraph=g;
 vfun=PropertyValue[{g,node},"actionFunction"];
+Print["currentVertexAction: ", node, " running: ",vfun];
 {newgraph,newnode,nstate}=vfun[newgraph,node,state];
 {newgraph,newnode,nstate}
 ];
 
-traverseGraph[g_Graph,start_,state_Association,exitNode_]:=Module[{node,nstate,newgraph,},(* traverse through the graph *)
-newgraph=g; 
-node=start;
+traverseGraph[g_Graph,start_,state_Association,exitNode_]:=Module[{node,nstate,newgraph},
+(* traverse through the graph *)
+
 {newgraph,node,nstate}=currentVertexAction[g,start,state];
-While[nstate["currentNode"]!=exitNode, node=getNextVertex[newgraph,node,nstate];Print["Next node: ",node]; {newgraph,node,nstate}=currentVertexAction[newgraph,node,nstate]; 
-Print[" current node: ",node," nstate: ",nstate]];
-Print["Final node: ",node, " final state: ",nstate];
+While[nstate["currentNode"]!=exitNode, node=getNextVertex[newgraph,node,nstate];
+Print["TraverseGraph: next node: ",node];
+{newgraph,node,nstate}=currentVertexAction[newgraph,node,nstate]; 
+Print["TraverseGraph: after VertextAction current node: ",node," nstate: ",nstate];
+nstate["currentNode"]=node];  (* while *)
+Print["TraverseGraph: final node: ",node, " final state: ",nstate];
 {newgraph,node,nstate}
 ];
 
 End[]
 
 EndPackage[]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
