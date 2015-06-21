@@ -17,11 +17,14 @@ getNextVertex::usage="Get next vertex in state diagram ";
 traverseGraph::usage="travers the graph return g,node,state ";
 currentVertexAction::usage="given a vertex rund the action associated with it ";
 defaultPriorityFunction::usage="default function returns priority of node";
+fsmPrintDebug::usage="print debug statements eg traverseGraph  //fsmPrintDebug";
 defaultActionFunction::usage="default function returns state";
 applyDefaultGraphSettings::usage="graph, priority, apply defaults settings to graph, return newgraph";
 fsmGraphPlot::usage="plot fsm graph and show priority function on edges";
 fsmGraphPlotAction::usage="plot fsm graph and show priority function on edges plus action functions";
 Begin["`Private`"]
+Attributes[fsmPrintDebug]={HoldAll}
+fsmPrintDebug[expr_] := Block[{fsmDebugPrint = Print}, expr];
 discoverFun[u_,v_,d_]:=Module[{}, (* Print["Discovered:", u," from ",v, " depth ", d ]; *)
  If[d==1,Sow[u]] ];
 applyDefaultGraphSettings[g_Graph,priority_]:=Module[{ng},ng=g;
@@ -33,7 +36,7 @@ findNextVertices[g_Graph,start_]:=Module[{nodes={}},nodes=Reap[BreadthFirstScan[
 Flatten[nodes[[2]]]];
 
 chooseHighPriorityNode[nodes_Association]:=Module[{sorted,highKey},(* returned highest priority node *)
-sorted=Sort[nodes];Print[sorted];
+sorted=Sort[nodes];fsmDebugPrint[sorted];
 highKey=Flatten[Position[sorted,Last[Sort[sorted]]]];
 highKey[[1,1]]
  ];
@@ -52,7 +55,7 @@ newlist={StringJoin[#[[1]],PropertyValue[{g,#[[1]]},"actionFunction"]] -> String
 getNextVertex[g_Graph,start_,state_Association]:=Module[{nodes,prioritized},(* look at priority to figure out what is next *)
 nodes=findNextVertices[g,start];
 prioritized={# ->PropertyValue[{g,#},"priorityFunction" ][g,#,state]}  &/@ nodes;
-Print["Prioritized nodes are: ",prioritized];
+fsmDebugPrint["Prioritized nodes are: ",prioritized];
 chooseHighPriorityNode[Association[prioritized]]
 ];
 setDefaultPriority[g_Graph,priority_Integer]:=Module[{nodes,newgraph},
@@ -84,7 +87,7 @@ nnode=node;
 currentVertexAction[g_Graph,node_,state_Association]:=Module[{newgraph,newnode,newState,vfun,nstate},(* action for a specific vertex based on state *)
 newgraph=g;
 vfun=PropertyValue[{g,node},"actionFunction"];
-Print["currentVertexAction: ", node, " running: ",vfun];
+fsmDebugPrint["currentVertexAction: ", node, " running: ",vfun];
 {newgraph,newnode,nstate}=vfun[newgraph,node,state];
 {newgraph,newnode,nstate}
 ];
@@ -94,9 +97,9 @@ traverseGraph[g_Graph,start_,state_Association,exitNode_]:=Module[{node,nstate,n
 
 {newgraph,node,nstate}=currentVertexAction[g,start,state];
 While[nstate["currentNode"]!=exitNode, node=getNextVertex[newgraph,node,nstate];
-Print["TraverseGraph: next node: ",node];
+fsmDebugPrint["TraverseGraph: next node: ",node];
 {newgraph,node,nstate}=currentVertexAction[newgraph,node,nstate]; 
-Print["TraverseGraph: after VertextAction current node: ",node," nstate: ",nstate];
+fsmDebugPrint["TraverseGraph: after VertextAction current node: ",node," nstate: ",nstate];
 nstate["currentNode"]=node];  (* while *)
 Print["TraverseGraph: final node: ",node, " final state: ",nstate];
 {newgraph,node,nstate}
