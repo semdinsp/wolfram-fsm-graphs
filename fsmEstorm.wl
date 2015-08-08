@@ -23,7 +23,7 @@ applyDefaultGraphSettings::usage="graph, priority, apply defaults settings to gr
 fsmGraphPlot::usage="plot fsm graph and show priority function on edges";
 fsmGraphPlotAction::usage="plot fsm graph and show priority function on edges plus action functions";
 Begin["`Private`"]
-Attributes[fsmPrintDebug]={HoldAll}
+Attributes[fsmPrintDebug]={HoldAll};
 fsmPrintDebug[expr_] := Block[{fsmDebugPrint = Print}, expr];
 discoverFun[u_,v_,d_]:=Module[{}, (* Print["Discovered:", u," from ",v, " depth ", d ]; *)
  If[d==1,Sow[u]] ];
@@ -78,11 +78,12 @@ newgraph
 ];
 defaultPriorityFunction[g_Graph,node_,state_Association]:=Module[{}, (* just return default priorty *)
 PropertyValue[{g,node},"priority" ]];
-defaultActionFunction[g_Graph,node_,state_Association]:=Module[{nstate,nnode}, (* just return default state *)
+defaultActionFunction[g_Graph,node_,state_Association]:=Module[{ng,nstate,nnode}, (* just return default state *)
 nstate=state;
 nstate["currentNode"]=node;
 nnode=node;
-{g,nnode,nstate}];
+ng=g;
+{ng,nnode,nstate}];
 
 currentVertexAction[g_Graph,node_,state_Association]:=Module[{newgraph,newnode,newState,vfun,nstate},(* action for a specific vertex based on state *)
 newgraph=g;

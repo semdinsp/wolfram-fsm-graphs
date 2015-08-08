@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[    443549,      10962]
-NotebookOptionsPosition[    393663,       9887]
-NotebookOutlinePosition[    437154,      10761]
-CellTagsIndexPosition[    437111,      10758]
+NotebookDataLength[    443562,      10962]
+NotebookOptionsPosition[    393664,       9887]
+NotebookOutlinePosition[    437158,      10761]
+CellTagsIndexPosition[    437115,      10758]
 WindowTitle->fsmTest
 WindowFrame->Normal*)
 
@@ -238,7 +238,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-00013699999999516876`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+00012800000000368073`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -262,7 +262,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.00013699999999516876`\", \"\\\"s\
+          "\!\(\*TagBox[TemplateBox[List[\"0.00012800000000368073`\", \"\\\"s\
 \\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
@@ -275,7 +275,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->1412772486],
+ CellID->757324475],
 
 Cell[BoxData[
  PaneBox[
@@ -555,7 +555,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->1887970970]
+ CellID->216875556]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -817,7 +817,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-0001880000000085147`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+0002789999999919246`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -841,7 +841,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.0001880000000085147`\", \
+          "\!\(\*TagBox[TemplateBox[List[\"0.0002789999999919246`\", \
 \"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
 Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
@@ -854,7 +854,7 @@ Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->2057208365],
+ CellID->747720733],
 
 Cell[BoxData[
  PaneBox[
@@ -1134,7 +1134,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->1014273855]
+ CellID->2015540934]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1396,7 +1396,7 @@ Rational[2, 3]]]]\\)\"\>",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-00022599999999783904`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+0002559999999931506`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -1420,9 +1420,9 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.00022599999999783904`\", \"\\\"s\
-\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, Mod]], \
-Function[Short[Slot[1], Rational[2, 3]]]]\)", 
+          "\!\(\*TagBox[TemplateBox[List[\"0.0002559999999931506`\", \
+\"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
+Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
         BaseStyle -> {FontFamily -> "Helvetica", FontWeight -> "Bold"}, 
         Spacings -> {{2 -> 0.5}, Automatic}]},
@@ -1433,7 +1433,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->175491099],
+ CellID->789429960],
 
 Cell[BoxData[
  PaneBox[
@@ -1713,7 +1713,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->983853562]
+ CellID->795366554]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -1976,7 +1976,7 @@ Rational[2, 3]]]]\\)\"\>",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-0007650000000154478`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+0004980000000003315`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -2000,7 +2000,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.0007650000000154478`\", \
+          "\!\(\*TagBox[TemplateBox[List[\"0.0004980000000003315`\", \
 \"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
 Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
@@ -2013,7 +2013,7 @@ Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->2734634],
+ CellID->1787454150],
 
 Cell[BoxData[
  PaneBox[
@@ -2293,7 +2293,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->863837051]
+ CellID->593161167]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -2560,7 +2560,7 @@ Rational[2, 3]]]]\)",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-0005269999999910624`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+0005029999999948132`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -2584,7 +2584,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.0005269999999910624`\", \
+          "\!\(\*TagBox[TemplateBox[List[\"0.0005029999999948132`\", \
 \"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
 Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
@@ -2597,7 +2597,7 @@ Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->1519862437],
+ CellID->640644395],
 
 Cell[BoxData[
  PaneBox[
@@ -2877,7 +2877,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->9997594]
+ CellID->1974824354]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3148,7 +3148,7 @@ Rational[2, 3]]]]\\)\"\>",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-0004250000000070031`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+0002899999999996794`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -3172,7 +3172,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.0004250000000070031`\", \
+          "\!\(\*TagBox[TemplateBox[List[\"0.0002899999999996794`\", \
 \"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
 Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
@@ -3185,7 +3185,7 @@ Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->525837892],
+ CellID->1513153293],
 
 Cell[BoxData[
  PaneBox[
@@ -3465,7 +3465,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->862243439]
+ CellID->1066047677]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -3720,7 +3720,7 @@ Rational[2, 3]]]]\\)\"\>",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-0003019999999906986`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+000332000000000221`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -3744,9 +3744,9 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.0003019999999906986`\", \
-\"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
-Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
+          "\!\(\*TagBox[TemplateBox[List[\"0.000332000000000221`\", \"\\\"s\\\
+\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, Mod]], \
+Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
         BaseStyle -> {FontFamily -> "Helvetica", FontWeight -> "Bold"}, 
         Spacings -> {{2 -> 0.5}, Automatic}]},
@@ -3757,7 +3757,7 @@ Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->505829317],
+ CellID->607240418],
 
 Cell[BoxData[
  PaneBox[
@@ -4037,7 +4037,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->1733055993]
+ CellID->1047414782]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -4302,7 +4302,7 @@ Rational[2, 3]]]]\\)\"\>",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-00035100000000909404`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+00041500000000382897`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -4326,7 +4326,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.00035100000000909404`\", \"\\\"s\
+          "\!\(\*TagBox[TemplateBox[List[\"0.00041500000000382897`\", \"\\\"s\
 \\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
@@ -4339,7 +4339,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->1151370090],
+ CellID->976786615],
 
 Cell[BoxData[
  PaneBox[
@@ -4619,7 +4619,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->101959513]
+ CellID->1487640637]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -4884,7 +4884,7 @@ Rational[2, 3]]]]\\)\"\>",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-00039999999999906777`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+0004059999999981301`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -4908,9 +4908,9 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.00039999999999906777`\", \"\\\"s\
-\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, Mod]], \
-Function[Short[Slot[1], Rational[2, 3]]]]\)", 
+          "\!\(\*TagBox[TemplateBox[List[\"0.0004059999999981301`\", \
+\"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
+Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
         BaseStyle -> {FontFamily -> "Helvetica", FontWeight -> "Bold"}, 
         Spacings -> {{2 -> 0.5}, Automatic}]},
@@ -4921,7 +4921,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->2089068332],
+ CellID->1771567685],
 
 Cell[BoxData[
  PaneBox[
@@ -5201,7 +5201,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->1761311121]
+ CellID->2024799787]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -5462,7 +5462,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\)",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-0002589999999997872`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+0004810000000006198`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -5486,7 +5486,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.0002589999999997872`\", \
+          "\!\(\*TagBox[TemplateBox[List[\"0.0004810000000006198`\", \
 \"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
 Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
@@ -5499,7 +5499,7 @@ Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->1441420399],
+ CellID->1784149747],
 
 Cell[BoxData[
  PaneBox[
@@ -5779,7 +5779,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->189624186]
+ CellID->890634768]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6035,7 +6035,7 @@ Rational[2, 3]]]]\)",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-00026400000000137425`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+0003930000000025302`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -6059,9 +6059,9 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.00026400000000137425`\", \"\\\"s\
-\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, Mod]], \
-Function[Short[Slot[1], Rational[2, 3]]]]\)", 
+          "\!\(\*TagBox[TemplateBox[List[\"0.0003930000000025302`\", \
+\"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
+Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
         BaseStyle -> {FontFamily -> "Helvetica", FontWeight -> "Bold"}, 
         Spacings -> {{2 -> 0.5}, Automatic}]},
@@ -6072,7 +6072,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->147961954],
+ CellID->937526186],
 
 Cell[BoxData[
  PaneBox[
@@ -6352,7 +6352,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->10497652]
+ CellID->915090063]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -6583,7 +6583,7 @@ Rational[2, 3]]]]\)",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-0003370000000018081`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+0001810000000048717`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -6607,7 +6607,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.0003370000000018081`\", \
+          "\!\(\*TagBox[TemplateBox[List[\"0.0001810000000048717`\", \
 \"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
 Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
@@ -6620,7 +6620,7 @@ Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->340378110],
+ CellID->1788292674],
 
 Cell[BoxData[
  PaneBox[
@@ -6900,7 +6900,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->1985942809]
+ CellID->1801332153]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7133,7 +7133,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-00029600000000584714`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+00018300000000692762`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -7157,7 +7157,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.00029600000000584714`\", \"\\\"s\
+          "\!\(\*TagBox[TemplateBox[List[\"0.00018300000000692762`\", \"\\\"s\
 \\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
@@ -7170,7 +7170,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->1549949189],
+ CellID->1912523712],
 
 Cell[BoxData[
  PaneBox[
@@ -7450,7 +7450,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->1019381413]
+ CellID->250799288]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -7725,7 +7725,7 @@ Rational[2, 3]]]]\)",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-0006620000000054915`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+0005570000000005848`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -7749,7 +7749,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.0006620000000054915`\", \
+          "\!\(\*TagBox[TemplateBox[List[\"0.0005570000000005848`\", \
 \"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
 Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
@@ -7762,7 +7762,7 @@ Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->118872525],
+ CellID->1820718002],
 
 Cell[BoxData[
  PaneBox[
@@ -8042,7 +8042,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->730735965]
+ CellID->1312973511]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -8317,7 +8317,7 @@ Rational[2, 3]]]]\)",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-0007339999999942393`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+0005319999999997549`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -8341,7 +8341,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.0007339999999942393`\", \
+          "\!\(\*TagBox[TemplateBox[List[\"0.0005319999999997549`\", \
 \"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
 Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
@@ -8354,7 +8354,7 @@ Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->20386562],
+ CellID->1751326452],
 
 Cell[BoxData[
  PaneBox[
@@ -8634,7 +8634,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->1187047661]
+ CellID->1132812982]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -8916,7 +8916,7 @@ Rational[2, 3]]]]\)",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-0006560000000064292`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+0006149999999962574`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -8940,7 +8940,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.0006560000000064292`\", \
+          "\!\(\*TagBox[TemplateBox[List[\"0.0006149999999962574`\", \
 \"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
 Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
@@ -8953,7 +8953,7 @@ Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->586957797],
+ CellID->1745257819],
 
 Cell[BoxData[
  PaneBox[
@@ -9233,7 +9233,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->1607303508]
+ CellID->69029560]
 }, Open  ]],
 
 Cell[CellGroupData[{
@@ -9565,7 +9565,7 @@ Rational[2, 3]]]]\)",
             FontColor->RGBColor[0.458824, 0.458824, 0.458824]], 
            
            StyleBox["\<\"\\!\\(\\*TagBox[TemplateBox[List[\\\"0.\
-0031889999999918928`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
+0012499999999988631`\\\", \\\"\\\\\\\"s\\\\\\\"\\\", \\\"s\\\", \
 \\\"\\\\\\\"Seconds\\\\\\\"\\\"], \\\"Quantity\\\", Rule[SyntaxForm, Mod]], \
 Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
             StripOnInput->False,
@@ -9589,7 +9589,7 @@ Function[Short[Slot[1], Rational[2, 3]]]]\\)\"\>",
              "MUnitStrings", "CPUTimeUsed-Detail"]]], 
            RGBColor[0.458824, 0.458824, 0.458824]], 
           Style[
-          "\!\(\*TagBox[TemplateBox[List[\"0.0031889999999918928`\", \
+          "\!\(\*TagBox[TemplateBox[List[\"0.0012499999999988631`\", \
 \"\\\"s\\\"\", \"s\", \"\\\"Seconds\\\"\"], \"Quantity\", Rule[SyntaxForm, \
 Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)", 
            RGBColor[0.14902, 0.14902, 0.14902]]}}, 
@@ -9602,7 +9602,7 @@ Mod]], Function[Short[Slot[1], Rational[2, 3]]]]\)",
     GridBoxItemSize->{"Columns" -> {{All}}, "Rows" -> {{All}}}],
    "Grid"],
   ImageSize->Full]], "TestSuccess",
- CellID->753263343],
+ CellID->538645540],
 
 Cell[BoxData[
  PaneBox[
@@ -9882,7 +9882,7 @@ Cell[BoxData[
     GridBoxItemSize->{"Columns" -> {{Automatic}}, "Rows" -> {{Automatic}}}],
    "Grid"],
   ImageSize->Full]], "BottomCell",
- CellID->680906736]
+ CellID->1372018675]
 }, Open  ]]
 },
 WindowSize->{808, 619},
@@ -10436,12 +10436,12 @@ DockedCells->{
               DynamicBox[
                ToBoxes[
                 
-                MUnit`Palette`Private`resultColorBar$$[{1412772486, 
-                 2057208365, 175491099, 2734634, 1519862437, 525837892, 
-                 505829317, 1151370090, 2089068332, 1441420399, 147961954, 
-                 340378110, 1549949189, 118872525, 20386562, 586957797, 
-                 753263343}, {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 
-                 15, 16, 17}, {}, {}, {}, 250, 12], StandardForm]], 
+                MUnit`Palette`Private`resultColorBar$$[{757324475, 747720733, 
+                 789429960, 1787454150, 640644395, 1513153293, 607240418, 
+                 976786615, 1771567685, 1784149747, 937526186, 1788292674, 
+                 1912523712, 1820718002, 1751326452, 1745257819, 538645540}, {
+                 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
+                 17}, {}, {}, {}, 250, 12], StandardForm]], 
               ActionMenuBox[
                PaneSelectorBox[{False -> DynamicBox[
                    FEPrivate`FrontEndResource[
@@ -10744,7 +10744,7 @@ DockedCells->{
    RGBColor[0.827, 0.827, 0.827], "DockedCell", CellTags -> 
    "MUnitResultsCell"]},
 TaggingRules->{"$testsRun" -> True, "$someTestsFailed" -> False},
-FrontEndVersion->"10.1 for Mac OS X x86 (32-bit, 64-bit Kernel) (March 23, \
+FrontEndVersion->"10.2 for Mac OS X x86 (32-bit, 64-bit Kernel) (July 6, \
 2015)",
 StyleDefinitions->FrontEnd`FileName[{"MUnit"}, "MUnit.nb", CharacterEncoding -> 
   "UTF-8"]
@@ -10767,58 +10767,58 @@ Cell[778, 28, 126, 2, 36, "ExpectedOutput",
  CellID->1196951050],
 Cell[907, 32, 159, 5, 37, "TestOptions",
  CellID->1950686183],
-Cell[1069, 39, 10012, 238, 25, "TestSuccess",
- CellID->1412772486],
-Cell[11084, 279, 11032, 278, 43, "BottomCell",
- CellID->1887970970]
+Cell[1069, 39, 10011, 238, 25, "TestSuccess",
+ CellID->757324475],
+Cell[11083, 279, 11031, 278, 43, "BottomCell",
+ CellID->216875556]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[22153, 562, 1276, 35, 147, "VerificationTest",
+Cell[22151, 562, 1276, 35, 147, "VerificationTest",
  CellID->602471493],
-Cell[23432, 599, 262, 6, 54, "ExpectedOutput",
+Cell[23430, 599, 262, 6, 54, "ExpectedOutput",
  CellID->352987246],
-Cell[23697, 607, 159, 5, 37, "TestOptions",
+Cell[23695, 607, 159, 5, 37, "TestOptions",
  CellID->1697322579],
-Cell[23859, 614, 10318, 242, 25, "TestSuccess",
- CellID->2057208365],
-Cell[34180, 858, 11032, 278, 43, "BottomCell",
- CellID->1014273855]
+Cell[23857, 614, 10317, 242, 25, "TestSuccess",
+ CellID->747720733],
+Cell[34177, 858, 11032, 278, 43, "BottomCell",
+ CellID->2015540934]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[45249, 1141, 1573, 45, 164, "VerificationTest",
+Cell[45246, 1141, 1573, 45, 164, "VerificationTest",
  CellID->580412761],
-Cell[46825, 1188, 99, 2, 36, "ExpectedOutput",
+Cell[46822, 1188, 99, 2, 36, "ExpectedOutput",
  CellID->1126549453],
-Cell[46927, 1192, 159, 5, 37, "TestOptions",
+Cell[46924, 1192, 159, 5, 37, "TestOptions",
  CellID->1875302152],
-Cell[47089, 1199, 9995, 236, 25, "TestSuccess",
- CellID->175491099],
-Cell[57087, 1437, 11031, 278, 43, "BottomCell",
- CellID->983853562]
+Cell[47086, 1199, 9993, 236, 25, "TestSuccess",
+ CellID->789429960],
+Cell[57082, 1437, 11031, 278, 43, "BottomCell",
+ CellID->795366554]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[68155, 1720, 1583, 45, 181, "VerificationTest",
+Cell[68150, 1720, 1583, 45, 181, "VerificationTest",
  CellID->809404869],
-Cell[69741, 1767, 147, 3, 36, "ExpectedOutput",
+Cell[69736, 1767, 147, 3, 36, "ExpectedOutput",
  CellID->1506213185],
-Cell[69891, 1772, 158, 5, 37, "TestOptions",
+Cell[69886, 1772, 158, 5, 37, "TestOptions",
  CellID->387769459],
-Cell[70052, 1779, 9991, 236, 25, "TestSuccess",
- CellID->2734634],
-Cell[80046, 2017, 11031, 278, 43, "BottomCell",
- CellID->863837051]
+Cell[70047, 1779, 9994, 236, 25, "TestSuccess",
+ CellID->1787454150],
+Cell[80044, 2017, 11031, 278, 43, "BottomCell",
+ CellID->593161167]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[91114, 2300, 1639, 46, 181, "VerificationTest",
+Cell[91112, 2300, 1639, 46, 181, "VerificationTest",
  CellID->2142373206],
-Cell[92756, 2348, 216, 4, 36, "ExpectedOutput",
+Cell[92754, 2348, 216, 4, 36, "ExpectedOutput",
  CellID->8163993],
-Cell[92975, 2354, 159, 5, 37, "TestOptions",
+Cell[92973, 2354, 159, 5, 37, "TestOptions",
  CellID->1920760590],
-Cell[93137, 2361, 10078, 238, 25, "TestSuccess",
- CellID->1519862437],
-Cell[103218, 2601, 11029, 278, 43, "BottomCell",
- CellID->9997594]
+Cell[93135, 2361, 10077, 238, 25, "TestSuccess",
+ CellID->640644395],
+Cell[103215, 2601, 11032, 278, 43, "BottomCell",
+ CellID->1974824354]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[114284, 2884, 1743, 52, 181, "VerificationTest",
@@ -10827,22 +10827,22 @@ Cell[116030, 2938, 121, 2, 36, "ExpectedOutput",
  CellID->630538018],
 Cell[116154, 2942, 159, 5, 37, "TestOptions",
  CellID->1733265292],
-Cell[116316, 2949, 10021, 238, 25, "TestSuccess",
- CellID->525837892],
-Cell[126340, 3189, 11031, 278, 43, "BottomCell",
- CellID->862243439]
+Cell[116316, 2949, 10022, 238, 25, "TestSuccess",
+ CellID->1513153293],
+Cell[126341, 3189, 11032, 278, 43, "BottomCell",
+ CellID->1066047677]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[137408, 3472, 1463, 38, 147, "VerificationTest",
+Cell[137410, 3472, 1463, 38, 147, "VerificationTest",
  CellID->1787468709],
-Cell[138874, 3512, 122, 2, 36, "ExpectedOutput",
+Cell[138876, 3512, 122, 2, 36, "ExpectedOutput",
  CellID->837854280],
-Cell[138999, 3516, 158, 5, 37, "TestOptions",
+Cell[139001, 3516, 158, 5, 37, "TestOptions",
  CellID->374091089],
-Cell[139160, 3523, 9993, 236, 25, "TestSuccess",
- CellID->505829317],
+Cell[139162, 3523, 9991, 236, 25, "TestSuccess",
+ CellID->607240418],
 Cell[149156, 3761, 11032, 278, 43, "BottomCell",
- CellID->1733055993]
+ CellID->1047414782]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[160225, 4044, 1904, 48, 164, "VerificationTest",
@@ -10851,10 +10851,10 @@ Cell[162132, 4094, 98, 2, 36, "ExpectedOutput",
  CellID->412075449],
 Cell[162233, 4098, 159, 5, 37, "TestOptions",
  CellID->1664298054],
-Cell[162395, 4105, 9996, 236, 25, "TestSuccess",
- CellID->1151370090],
-Cell[172394, 4343, 11031, 278, 43, "BottomCell",
- CellID->101959513]
+Cell[162395, 4105, 9995, 236, 25, "TestSuccess",
+ CellID->976786615],
+Cell[172393, 4343, 11032, 278, 43, "BottomCell",
+ CellID->1487640637]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[183462, 4626, 1910, 46, 147, "VerificationTest",
@@ -10863,94 +10863,94 @@ Cell[185375, 4674, 121, 2, 36, "ExpectedOutput",
  CellID->1295756812],
 Cell[185499, 4678, 158, 5, 37, "TestOptions",
  CellID->153075057],
-Cell[185660, 4685, 10024, 238, 25, "TestSuccess",
- CellID->2089068332],
-Cell[195687, 4925, 11032, 278, 43, "BottomCell",
- CellID->1761311121]
+Cell[185660, 4685, 10022, 238, 25, "TestSuccess",
+ CellID->1771567685],
+Cell[195685, 4925, 11032, 278, 43, "BottomCell",
+ CellID->2024799787]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[206756, 5208, 1401, 36, 147, "VerificationTest",
+Cell[206754, 5208, 1401, 36, 147, "VerificationTest",
  CellID->1757465074],
-Cell[208160, 5246, 207, 6, 36, "ExpectedOutput",
+Cell[208158, 5246, 207, 6, 36, "ExpectedOutput",
  CellID->1225417880],
-Cell[208370, 5254, 157, 5, 37, "TestOptions",
+Cell[208368, 5254, 157, 5, 37, "TestOptions",
  CellID->57358255],
-Cell[208530, 5261, 10194, 240, 25, "TestSuccess",
- CellID->1441420399],
-Cell[218727, 5503, 11031, 278, 43, "BottomCell",
- CellID->189624186]
+Cell[208528, 5261, 10194, 240, 25, "TestSuccess",
+ CellID->1784149747],
+Cell[218725, 5503, 11031, 278, 43, "BottomCell",
+ CellID->890634768]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[229795, 5786, 1363, 36, 147, "VerificationTest",
+Cell[229793, 5786, 1363, 36, 147, "VerificationTest",
  CellID->126986597],
-Cell[231161, 5824, 169, 3, 36, "ExpectedOutput",
+Cell[231159, 5824, 169, 3, 36, "ExpectedOutput",
  CellID->1812474308],
-Cell[231333, 5829, 158, 5, 37, "TestOptions",
+Cell[231331, 5829, 158, 5, 37, "TestOptions",
  CellID->882891403],
-Cell[231494, 5836, 10083, 238, 25, "TestSuccess",
- CellID->147961954],
-Cell[241580, 6076, 11030, 278, 43, "BottomCell",
- CellID->10497652]
+Cell[231492, 5836, 10081, 238, 25, "TestSuccess",
+ CellID->937526186],
+Cell[241576, 6076, 11031, 278, 43, "BottomCell",
+ CellID->915090063]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[252647, 6359, 562, 13, 62, "VerificationTest",
+Cell[252644, 6359, 562, 13, 62, "VerificationTest",
  CellID->147159316],
-Cell[253212, 6374, 147, 2, 36, "ExpectedOutput",
+Cell[253209, 6374, 147, 2, 36, "ExpectedOutput",
  CellID->1552946315],
-Cell[253362, 6378, 159, 5, 37, "TestOptions",
+Cell[253359, 6378, 159, 5, 37, "TestOptions",
  CellID->1791293098],
-Cell[253524, 6385, 10088, 237, 25, "TestSuccess",
- CellID->340378110],
-Cell[263615, 6624, 11032, 278, 43, "BottomCell",
- CellID->1985942809]
+Cell[253521, 6385, 10089, 237, 25, "TestSuccess",
+ CellID->1788292674],
+Cell[263613, 6624, 11032, 278, 43, "BottomCell",
+ CellID->1801332153]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[274684, 6907, 587, 13, 79, "VerificationTest",
+Cell[274682, 6907, 587, 13, 79, "VerificationTest",
  CellID->816431854],
-Cell[275274, 6922, 183, 3, 36, "ExpectedOutput",
+Cell[275272, 6922, 183, 3, 36, "ExpectedOutput",
  CellID->1497149495],
-Cell[275460, 6927, 158, 5, 37, "TestOptions",
+Cell[275458, 6927, 158, 5, 37, "TestOptions",
  CellID->689850793],
-Cell[275621, 6934, 10060, 238, 25, "TestSuccess",
- CellID->1549949189],
-Cell[285684, 7174, 11032, 278, 43, "BottomCell",
- CellID->1019381413]
+Cell[275619, 6934, 10060, 238, 25, "TestSuccess",
+ CellID->1912523712],
+Cell[285682, 7174, 11031, 278, 43, "BottomCell",
+ CellID->250799288]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[296753, 7457, 2034, 55, 181, "VerificationTest",
+Cell[296750, 7457, 2034, 55, 181, "VerificationTest",
  CellID->894905337],
-Cell[298790, 7514, 186, 3, 36, "ExpectedOutput",
+Cell[298787, 7514, 186, 3, 36, "ExpectedOutput",
  CellID->1846019018],
-Cell[298979, 7519, 159, 5, 37, "TestOptions",
+Cell[298976, 7519, 159, 5, 37, "TestOptions",
  CellID->1051109535],
-Cell[299141, 7526, 10061, 238, 25, "TestSuccess",
- CellID->118872525],
-Cell[309205, 7766, 11031, 278, 43, "BottomCell",
- CellID->730735965]
+Cell[299138, 7526, 10062, 238, 25, "TestSuccess",
+ CellID->1820718002],
+Cell[309203, 7766, 11032, 278, 43, "BottomCell",
+ CellID->1312973511]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[320273, 8049, 2035, 54, 198, "VerificationTest",
+Cell[320272, 8049, 2035, 54, 198, "VerificationTest",
  CellID->298277542],
-Cell[322311, 8105, 241, 4, 36, "ExpectedOutput",
+Cell[322310, 8105, 241, 4, 36, "ExpectedOutput",
  CellID->923816296],
-Cell[322555, 8111, 158, 5, 37, "TestOptions",
+Cell[322554, 8111, 158, 5, 37, "TestOptions",
  CellID->797474523],
-Cell[322716, 8118, 10088, 238, 25, "TestSuccess",
- CellID->20386562],
-Cell[332807, 8358, 11032, 278, 43, "BottomCell",
- CellID->1187047661]
+Cell[322715, 8118, 10090, 238, 25, "TestSuccess",
+ CellID->1751326452],
+Cell[332808, 8358, 11032, 278, 43, "BottomCell",
+ CellID->1132812982]
 }, Open  ]],
 Cell[CellGroupData[{
-Cell[343876, 8641, 2372, 62, 215, "VerificationTest",
+Cell[343877, 8641, 2372, 62, 215, "VerificationTest",
  CellID->689933630],
-Cell[346251, 8705, 293, 4, 36, "ExpectedOutput",
+Cell[346252, 8705, 293, 4, 36, "ExpectedOutput",
  CellID->1450309257],
-Cell[346547, 8711, 158, 5, 37, "TestOptions",
+Cell[346548, 8711, 158, 5, 37, "TestOptions",
  CellID->708867134],
-Cell[346708, 8718, 10088, 237, 25, "TestSuccess",
- CellID->586957797],
-Cell[356799, 8957, 11032, 278, 43, "BottomCell",
- CellID->1607303508]
+Cell[346709, 8718, 10089, 237, 25, "TestSuccess",
+ CellID->1745257819],
+Cell[356801, 8957, 11030, 278, 43, "BottomCell",
+ CellID->69029560]
 }, Open  ]],
 Cell[CellGroupData[{
 Cell[367868, 9240, 4152, 111, 402, "VerificationTest",
@@ -10960,9 +10960,9 @@ Cell[372023, 9353, 341, 5, 36, "ExpectedOutput",
 Cell[372367, 9360, 159, 5, 37, "TestOptions",
  CellID->1838131229],
 Cell[372529, 9367, 10084, 237, 25, "TestSuccess",
- CellID->753263343],
-Cell[382616, 9606, 11031, 278, 43, "BottomCell",
- CellID->680906736]
+ CellID->538645540],
+Cell[382616, 9606, 11032, 278, 43, "BottomCell",
+ CellID->1372018675]
 }, Open  ]]
 }
 ]
