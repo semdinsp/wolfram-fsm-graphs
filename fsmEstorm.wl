@@ -93,11 +93,13 @@ fsmDebugPrint["currentVertexAction: ", node, " running: ",vfun];
 {newgraph,newnode,nstate}
 ];
 
-traverseGraph[g_Graph,start_,state_Association,exitNode_]:=Module[{node,nstate,newgraph},
+traverseGraph[g_Graph,start_,state_Association,exitNodes_List]:=Module[{node,nstate,newgraph},
 (* traverse through the graph *)
 
 {newgraph,node,nstate}=currentVertexAction[g,start,state];
-While[nstate["currentNode"]!=exitNode, node=getNextVertex[newgraph,node,nstate];
+(* While[nstate["currentNode"]!=exitNode, node=getNextVertex[newgraph,node,nstate]; *)
+PrintTemporary["exitNodes: ",exitNodes, " curent ",nstate["currentNode"]];
+While[ContainsNone[exitNodes,{nstate["currentNode"]}], node=getNextVertex[newgraph,node,nstate];
 fsmDebugPrint["TraverseGraph: next node: ",node];
 {newgraph,node,nstate}=currentVertexAction[newgraph,node,nstate]; 
 fsmDebugPrint["TraverseGraph: after VertextAction current node: ",node," nstate: ",nstate];
