@@ -41,7 +41,7 @@ Flatten[nodes[[2]]]
 ];
 
 chooseHighPriorityNode[nodes_Association]:=Module[{sorted,highKey},(* returned highest priority node *)
-sorted=Sort[nodes];fsmDebugPrint[sorted];
+sorted=Sort[nodes];fsmDebugPrint["sorted list:",sorted];
 highKey=Flatten[Position[sorted,Last[Sort[sorted]]]];
 highKey[[1,1]]
  ];
@@ -99,15 +99,19 @@ newgraph=g;
 vfun=PropertyValue[{g,node},"actionFunction"];
 fsmDebugPrint["currentVertexAction: ", node, " running: ",vfun];
 {newgraph,newnode,nstate}=vfun[newgraph,node,state];
+fsmDebugPrint["----currentVertexAction new node: ", newnode];
 {newgraph,newnode,nstate}
 ];
 
-traverseGraph[g_Graph,start_,state_Association,exitNodes_List]:=Module[{node,nstate,newgraph},
+traverseGraph[g_Graph,start_,state_Association,exitNodes_List]:=Module[{node,nstate,newgraph,enode},
 (* traverse through the graph *)
-If[!ContainsAll[VertexList[g],Append[exitNodes,start]],Print["IMPORTATANT: vertices in exidNode list and start node are not in graph"]];
+fsmDebugPrint["TraverseGraph: startup: ",start," exit: ",exitNodes, " graph: ",g];
+enode=exitNodes;
 {newgraph,node,nstate}=currentVertexAction[g,start,state];
+nstate["currentNode"]=node;
+If[!ContainsAll[VertexList[g],Append[enode,start]],Print["IMPORTATANT: vertices in exidNode list and start node are not in graph"]];
 (* While[nstate["currentNode"]!=exitNode, node=getNextVertex[newgraph,node,nstate]; *)
-
+fsmDebugPrint["chceck exit: ",exitNodes, " curent: ",nstate["currentNode"]," contains flag: ",ContainsNone[exitNodes,{nstate["currentNode"]}]];
 While[ContainsNone[exitNodes,{nstate["currentNode"]}], node=getNextVertex[newgraph,node,nstate];
 fsmDebugPrint["TraverseGraph: next node: ",node];
 {newgraph,node,nstate}=currentVertexAction[newgraph,node,nstate]; 
